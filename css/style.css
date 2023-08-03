@@ -111,7 +111,15 @@
     align-items: center;
     padding: 10px;
     background-color: var(--color-tres);
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
 }
+.section::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+}
+
 
 .section__title {
     font-size: 34px;
@@ -217,7 +225,15 @@
     justify-content: space-between; 
     padding: 20px;
     background-color: var(--color-uno);
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
 }
+.section3::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+}
+
 
 
 .column3 {
